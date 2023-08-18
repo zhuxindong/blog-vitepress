@@ -72,13 +72,13 @@ function nav() {
       link: '/',
     },
     {
-      text: 'About',
-      link: 'https://github.com/zhuxindong',
+      text: 'ChatGPT',
+      link: 'https://chat.zhile.in',
     },
-    // {
-    //   text: 'Github',
-    //   link: 'https://github.com/Jinyang79/jinyang.github.io',
-    // },
+    {
+      text: 'Status',
+      link: 'https://status.zhile.in',
+    },
   ];
 }
 
