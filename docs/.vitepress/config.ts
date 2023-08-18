@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   // lang: 'en-US',
-  title: "Jinyang's Blog",
+  title: "知了 – 朝闻道，夕可眠矣。",
   description: 'share.',
 
   lastUpdated: true,
@@ -44,7 +44,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Jinyang79/blog-vitepress',
+        link: 'https://github.com/zhuxindong/blog-vitepress',
       },
     ],
 
@@ -73,7 +73,7 @@ function nav() {
     },
     {
       text: 'About',
-      link: 'https://github.com/Jinyang79',
+      link: 'https://github.com/zhuxindong',
     },
     // {
     //   text: 'Github',

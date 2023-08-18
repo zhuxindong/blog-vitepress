@@ -77,15 +77,13 @@
 ## utils 🔨
 
 - [Whimsical](https://whimsical.com/h5-LV3atjtuWrq1BCuLhMZiyv)
-- [VPN](https://xn--4gq62f52gdss.com/#/dashboard)
 - [Speedtest](https://www.speedtest.net)
 - [CodeSandbox](https://codesandbox.io/)
 - [Ipinfo](https://ipinfo.io/)
 
 ## blog 💡
 
-- [GitHub Pages](https://jinyang79.github.io/)(main)
+- [GitHub Pages](https://zhuxindong.github.io/)(main)
 - [Typora](https://typora.io/)(local)
 - [语雀](https://www.yuque.com/dashboard)(cloud)
-- [掘金](https://juejin.cn/user/3685218709706807)(public)
 - [图床](https://github.com/Molunerfinn/PicGo) PicGo + GitHub
