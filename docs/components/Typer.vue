@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 const me = [
-  '如果你事先知道自己将如何死去，你会以不同的方式过一生吗？ —— Cortana',
+  '这是坠吼的',
   '如果没有完成目标，做的这一切是否有意义?',
   '完成比完美重要?',
   '努力后失败很难接受，但我更怕的后悔没努力?',
