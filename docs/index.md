@@ -10,4 +10,4 @@ import Typer from './components/Typer.vue'
 
 <Typer />
 
-Made with by [VitePress](https://vitepress.vuejs.org/)
+
