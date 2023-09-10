@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress';
+import mathjax3 from 'markdown-it-mathjax3';
+
+const customElements = ['mjx-container'];
 
 export default defineConfig({
   // lang: 'en-US',
@@ -23,13 +26,27 @@ export default defineConfig({
         href: '/icon.ico',
       },
     ],
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css', crossorigin: '' }],
+
   ],
 
+  
   markdown: {
     theme: 'github-dark-dimmed',
     headers: {
       level: [0, 0],
     },
+    config: (md) => {
+      md.use(mathjax3)
+    },
+  },
+
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag)
+      }
+    }
   },
 
   themeConfig: {
@@ -115,7 +132,17 @@ function sidebarGuide() {
             },
           ] 
         },
-        { text: 'CRYPTO', items: [/*  */] }
+        { text: 'CRYPTO', items: [
+          {
+            text: 'RSA-N可以分解为多个素数',
+            link: '/blog/CTF/CRYPTO/multi-P-in-N',
+          },
+          {
+            text: 'RSA-已知p*(q-1)和q*(p-1)',
+            link: '/blog/CTF/CRYPTO/easy-to-get-phi',
+          },
+          ] 
+        }
       ],
     },
     {
@@ -213,3 +240,4 @@ function sidebarConfig() {
     },
   ];
 }
+
