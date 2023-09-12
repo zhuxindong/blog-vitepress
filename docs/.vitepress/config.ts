@@ -130,6 +130,10 @@ function sidebarGuide() {
               text: 'WEB-攻防世界easyupload',
               link: '/blog/CTF/WEB/easyupload',
             },
+            {
+              text: 'WEB-攻防世界php2-urldecode',
+              link: '/blog/CTF/WEB/php2-urldecode',
+            },
           ] 
         },
         { text: 'CRYPTO', items: [
