@@ -107,23 +107,23 @@ function sidebarGuide() {
       items: [
         { text: 'WEB', items: [
             {
-              text: 'WEB-攻防世界wife_wife',
+              text: 'WEB-wife_wife',
               link: '/blog/CTF/WEB/wife_wife',
             },
             {
-              text: 'WEB-攻防世界very_easy_sql',
+              text: 'WEB-very_easy_sql',
               link: '/blog/CTF/WEB/very_easy_sql',
             },
             {
-              text: '攻防世界file-include之伪协议绕过',
+              text: 'WEB-file-include之伪协议绕过',
               link: '/blog/CTF/WEB/file-include-bypass',
             },
             {
-              text: 'WEB-攻防世界fileinclude-2',
+              text: 'WEB-fileinclude-2',
               link: '/blog/CTF/WEB/fileinclude-2',
             },
             {
-              text: 'WEB-攻防世界fileclude',
+              text: 'WEB-fileclude',
               link: '/blog/CTF/WEB/fileclude-phpfilter',
             },
             {
@@ -131,7 +131,7 @@ function sidebarGuide() {
               link: '/blog/CTF/WEB/easyupload',
             },
             {
-              text: 'WEB-攻防世界php2-urldecode',
+              text: 'WEB-phpurldecode',
               link: '/blog/CTF/WEB/php2-urldecode',
             },
           ] 
