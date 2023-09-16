@@ -134,6 +134,30 @@ function sidebarGuide() {
               text: 'WEB-phpurldecode',
               link: '/blog/CTF/WEB/php2-urldecode',
             },
+            {
+              text: 'WEB-BUUCTF EasySQL1',
+              link: '/blog/CTF/WEB/BUUCTF EasySQL1',
+            },
+            {
+              text: 'WEB-BUUCTF easy-sql-inj',
+              link: '/blog/CTF/WEB/BUUCTF easy-sql-inj',
+            },
+            {
+              text: 'WEB-BUUCTF php-unserialize',
+              link: '/blog/CTF/WEB/BUUCTF php-unserialize',
+            },
+            {
+              text: 'WEB-BUUCTF Ping Ping Ping',
+              link: '/blog/CTF/WEB/BUUCTF Ping Ping Ping',
+            },
+            {
+              text: 'WEB-BUUCTF warmup',
+              link: '/blog/CTF/WEB/BUUCTF warmup',
+            },
+            {
+              text: 'WEB-BUUCTF-BabySQL',
+              link: '/blog/CTF/WEB/BUUCTF-BabySQL',
+            },
           ] 
         },
         { text: 'CRYPTO', items: [
