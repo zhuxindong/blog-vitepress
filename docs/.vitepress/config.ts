@@ -169,6 +169,22 @@ function sidebarGuide() {
             text: 'RSA-已知p*(q-1)和q*(p-1)',
             link: '/blog/CTF/CRYPTO/easy-to-get-phi',
           },
+          {
+            text: 'RSA 低指数攻击（e很小）',
+            link: '/blog/CTF/CRYPTO/RSA-small-e',
+          },
+          {
+            text: 'RSA低指数加密广播攻击(e很小;多组n,c)',
+            link: '/blog/CTF/CRYPTO/RSA-multi-n-c-with-small-e',
+          },
+          {
+            text: 'RSA公因数攻击（多组nc）',
+            link: '/blog/CTF/CRYPTO/RSA-common-factor-multi-n-c',
+          },
+          {
+            text: '当rsa遇到.enc或者.bin的密文',
+            link: '/blog/CTF/CRYPTO/RSA-read-enc-or-bin',
+          },
           ] 
         }
       ],
