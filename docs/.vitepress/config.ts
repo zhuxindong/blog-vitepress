@@ -186,6 +186,21 @@ function sidebarGuide() {
             link: '/blog/CTF/CRYPTO/RSA-read-enc-or-bin',
           },
           ] 
+        },
+        { text: 'REVERSE', items: [
+          {
+            text: 'BUUCTF--reverse1',
+            link: '/blog/CTF/REVERSE/BUUCTF--reverse1',
+          },
+          {
+            text: 'BUUCTF--reverse2',
+            link: '/blog/CTF/REVERSE/BUUCTF--reverse2',
+          },
+          {
+            text: 'BUUCTF--reverse3',
+            link: '/blog/CTF/REVERSE/BUUCTF--reverse3',
+          },
+          ] 
         }
       ],
     },
