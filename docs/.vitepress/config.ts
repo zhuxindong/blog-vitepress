@@ -200,6 +200,10 @@ function sidebarGuide() {
             text: 'BUUCTF--reverse3',
             link: '/blog/CTF/REVERSE/BUUCTF--reverse3',
           },
+          {
+            text: 'BUUCTF-ACTF2020-easyre',
+            link: '/blog/CTF/REVERSE/buuctf-ACTF2020-easyre',
+          },
           ] 
         }
       ],
