@@ -6,8 +6,8 @@
     "type": "module",
     "license": "MIT",
     "devDependencies": {
-        "markdown-it-mathjax3": "^4.3.2",
-        "vitepress": "^1.0.0-rc.13"
+        "markdown-it-mathjax3": "latest",
+        "vitepress": "latest"
     },
     "scripts": {
         "deploy": "bash deploy.sh",
