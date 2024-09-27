@@ -185,6 +185,10 @@ function sidebarGuide() {
             text: '当rsa遇到.enc或者.bin的密文',
             link: '/blog/CTF/CRYPTO/RSA-read-enc-or-bin',
           },
+          {
+            text: 'RSA中e和phi_n不互素',
+            link: '/blog/CTF/CRYPTO/RSA中e和phi_n不互素',
+          }
           ] 
         },
         { text: 'REVERSE', items: [
