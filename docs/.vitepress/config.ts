@@ -210,6 +210,14 @@ function sidebarGuide() {
           },
           ] 
         }
+        ,
+        { text: 'MISC', items: [
+          {
+            text: 'windows内存取证1',
+            link: '/blog/CTF/MISC/windows内存取证1',
+          },
+          ] 
+        }
       ],
     },
     {
